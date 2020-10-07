@@ -4,15 +4,15 @@
             <p class="px-3 my-auto"><strong>STOCK</strong>TRADER</p>
             <router-link to="/" active-class="bg-gray-300" exact
                          class="relative flex items-center px-4 py-2 leading-normal no-underline flex-no-grow
-                         flex-no-shrink hover:bg-gray-300"
+                         flex-no-shrink hover:bg-gray-400"
             ><a>Início</a></router-link>
             <router-link to="/portfolio" active-class="bg-gray-300" exact
                          class="relative flex items-center px-4 py-2 leading-normal no-underline flex-no-grow
-                         flex-no-shrink hover:bg-gray-300"
+                         flex-no-shrink hover:bg-gray-400"
             ><a>Portfólio</a></router-link>
             <router-link to="/acoes" active-class="bg-gray-300" exact
                          class="relative flex items-center px-4 py-2 leading-normal no-underline flex-no-grow
-                         flex-no-shrink hover:bg-gray-300"
+                         flex-no-shrink hover:bg-gray-400"
             ><a>Ações</a></router-link>
             <button class="relative block w-12 h-12 p-4 ml-auto cursor-pointer lg:hidden">
                 <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -28,11 +28,11 @@
             <div class="ml-auto lg:flex lg:items-stretch lg:justify-end">
                 <button
                    class="relative flex items-center px-4 py-2 leading-normal no-underline flex-no-grow flex-no-shrink
-                   hover:bg-gray-300 focus:outline-none" @click="finalizarDia">Finalizar Dia</button>
+                   hover:bg-gray-400 focus:outline-none" @click="finalizarDia">Finalizar Dia</button>
                 <div class="relative flex items-center group">
                     <button
                        class="h-12 px-4 py-2 leading-normal no-underline flex-no-grow flex-no-shrink
-                       group-hover:bg-gray-300 focus:outline-none">
+                       group-hover:bg-gray-400 focus:outline-none">
                         Salva & Carregar
                     </button>
                     <button
