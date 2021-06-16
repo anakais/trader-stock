@@ -1,4 +1,6 @@
 # stock-trader-cli
+This is a test project to pratice VueX, Router and etc.
+
 
 ## Project setup
 ```
